@@ -15,7 +15,6 @@ pop { r0-r2, pc }
 linker:
 bx r1
 
-
 .align 2
 sav1_get_secure:     .word 0x08054EC5
 var:                 .word 0x020370c0
